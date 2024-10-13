@@ -1,0 +1,95 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background-color: #f6f6f6; /* Light background */
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2a492c; /* A darker green */
+    font-family: 'Georgia', serif; /* Font similar to the one in your image */
+  }
+  
+  a {
+    color: #0056b3; /* Blue for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative; /* Needed for absolute positioning */
+  }
+  
+  .password-visibility {
+    position: absolute;
+    right: 10px; /* Position the icon */
+    top: 45%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust to center */
+    cursor: pointer;
+  }
+
+  .input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-group input {
+    width: 100%;
+    padding-right: 30px; /* Leave space for the icon */
+}
+
+.password-visibility {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50; /* Green background for button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  
+  button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+  
+  .form-text {
+    text-align: left;
+    margin-bottom: 12px;
+    color: #666;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
